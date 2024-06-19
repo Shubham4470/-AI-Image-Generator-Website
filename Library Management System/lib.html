@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Library Management System</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Members</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Featured Books</h2>
+        <ul id="book-list"></ul>
+      </section>
+      <section>
+        <h2>Search Books</h2>
+        <form id="search-form">
+          <input type="text" placeholder="Search by title, author, or ISBN" id="search-input">
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <section>
+        <h2>Add New Book</h2>
+        <form id="add-book-form">
+          <input type="text" placeholder="Title" id="title-input" required>
+          <input type="text" placeholder="Author" id="author-input" required>
+          <input type="text" placeholder="ISBN" id="isbn-input" required>
+          <button type="submit">Add Book</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Library Management System</p>
+    </footer>
+  </body>
+</html>
